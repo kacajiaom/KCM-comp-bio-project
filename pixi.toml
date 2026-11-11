@@ -1,6 +1,6 @@
 [workspace]
 authors = ["Kami <kamimora97@gmail.com>"]
-channels = ["conda-forge"]
+channels = ["conda-forge", "bioconda"]
 name = "KCM-comp-bio-project"
 platforms = ["linux-64"]
 version = "0.1.0"
@@ -10,3 +10,4 @@ version = "0.1.0"
 [dependencies]
 python = "3.14.*"
 marimo = ">=0.25.1,<0.26"
+iqtree = ">=3.1.4,<4"
